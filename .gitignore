@@ -1,0 +1,14 @@
+# large dataset files - download them separately (see README)
+data/*.csv
+data/*.zip
+data/*.pcap
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# keep the trained model out of git if it gets large (Random Forest can be 100+ MB)
+models/*.joblib
